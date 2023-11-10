@@ -1,0 +1,4 @@
+Eingabe von Thema und Stil (8 std)
+Ausgabe in der Console. (1 std)
+Abspeichern der Texte in der Datenbank. (kommend ca. 2 std)
+Texte abrufen und Löschen. (kommend ca. 2 std)
