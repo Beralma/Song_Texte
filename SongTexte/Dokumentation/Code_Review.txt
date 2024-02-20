@@ -1,0 +1,14 @@
+1.	Verwenden einer konsistenten Namenskonvention für Methoden und Variablen.
+		Zum Beispiel sollte QueryChatGPT zu queryChatGPT geändert werden, um der Namenskonvention im übrigen Code zu folgen.
+
+2.	Verwenden von async/await korrekt, um das UI-Thread-Blocking zu vermeiden.
+		In querybox_KeyDown rufen ich QueryChatGPT und FindCategory ohne Await auf, was zu unerwartetem Verhalten führen kann.
+
+3.	Verwenden von einem ViewModel, um die UI-Logik von der Geschäftslogik zu trennen.
+		Dadurch wird Ihr Code wartbarer und testbarer.
+
+4.	Verwenden Sie eine Bibliothek wie NLog oder Serilog zum Protokollieren,
+		was Ihnen helfen wird, Probleme in der Produktion zu diagnostizieren.
+
+5.	Verwenden Sie eine Bibliothek wie MediatR, um Befehls- und Abfrage-Muster zu behandeln,
+		was Ihnen helfen wird, Ihre Anwendung zu entkoppeln und wartbarer zu machen.
