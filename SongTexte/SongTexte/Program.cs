@@ -10,7 +10,7 @@ internal class Program
     
     private static async Task Main(string[] args)
     {
-        string apiKey = "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";
+        string apiKey = "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";
         string prompt = "Create song lyrics with the following theme and in stile of the entrepreneur:";
 
         // Prompt the user for input
